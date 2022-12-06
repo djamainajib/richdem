@@ -339,7 +339,7 @@ def LoadGDAL(filename: str, no_data: Optional[float] = None) -> rdarray:
     _AddAnalysis(
         srcdata, f"LoadGDAL(filename={filename}, no_data={no_data})"
     )
-
+    src_ds=None
     return srcdata
 
 
